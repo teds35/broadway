@@ -6,7 +6,6 @@ body {
 h1 {
     font-size: 70px;
     font-weight: bold;
-    color: white;
 }
 
 h2 {
@@ -15,16 +14,34 @@ h2 {
 }
 
 h3 {
-    
+    font-size: 23px;
+    font-weight: bold;
+}
+
+a {
+    font-size: 18px;
+    color: white;
 }
 
 .header {
     background-image: url("../images/the-flatiron-building.png");
+    color: white;
 }
 
-.nav {
-    font-size: 18px;
+.description p {
+    font-size: 14px;
+}
+
+#subheader {
+    background-image: url("../images/the-flatiron-building.png");
     color: white;
+}
+
+.footer {
+    text-align: left;
+    font-size: 11px;
+    color: white;
+    background-color: dimgray;
 }
 
 .inline {
